@@ -1,0 +1,126 @@
+.logo-for-app{
+    width: 40px;
+}
+.nav-bar-info>p{
+    width: 100%;
+}
+.nav-bar-info{
+    border-style: solid;
+    border-width: 0.5px;
+    margin-bottom: 4em;
+    border-color: rgb(190, 190, 190);
+}
+.nav-bar-info-last{
+    margin-bottom: 20px;
+}
+
+@media(max-width: 991px){
+    .nav-bar-info{
+        margin-bottom: 20px;
+    }
+}
+.nav-bar-info>a{
+    text-decoration: none;
+}
+.ad-info{
+    border-left-style: solid;
+    border-width: 1px;
+}
+@media (max-width: 991px){
+    .ad-info{
+        border-top: 1px;
+    }
+}
+
+/* .nav-info{
+    border-right-style: solid;
+    border-width: 0.5px;
+    
+} */
+.row-gap-lg-5>img{
+    width:100%;
+    height: 100%; 
+}
+
+/* left bar */
+
+.nav-info{
+    background-color: rgba(235, 235, 235, 0.397);
+}
+
+/* Home page corusel */
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+   background-color: black;
+}
+
+.bottom-line{
+    border-radius: 50%;
+    height: 14px !important;
+    width: 14px !important;
+}
+
+.carousel-indicators{
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.199);
+
+}
+
+.carousel{
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0.5px;
+    border-color: #acacac;
+}
+.bottom-line{
+    color: black;
+}
+
+.info-of-img{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.info-of-img>p{
+    max-width: 360px;
+}
+
+/* footer */
+
+.footer-href img{
+    width: 30px;
+    margin-right: 5px;
+    margin-bottom: 4px;
+    transition: ease 0.3s;
+}
+.footer-href img:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}
+
+.footer-href ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.footer{
+    height: 150px;
+    display: flex;
+    margin-top: 10px ;
+    justify-content: center;
+    background-color: rgba(235, 235, 235, 0.397);
+}
+
+@media(max-width: 991px){
+    .info-footer{
+        display: none !important;
+    }
+}
+
+.text-center{
+    text-align: center;
+}
